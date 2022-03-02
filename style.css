@@ -1,0 +1,121 @@
+:root{
+--bright-orange: hsl(31, 77%, 52%);
+--dark-cyan:  hsl(184, 100%, 22%);
+--very-dark-cyan: hsl(179, 100%, 13%);
+
+
+
+--transparent-white: hsla(0, 0%, 100%, 0.75);
+--very-light-gray: hsl(0, 0%, 95%);
+}
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+
+
+}
+body {
+    margin: 0 auto ;
+    height: 100%;
+    color: var(--very-light-gray);
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    min-height: 100vh;
+    justify-content: center;
+
+
+}
+p {
+    color: var(--transparent-white);
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+.container h1 {
+    text-transform: uppercase;
+    padding: 20px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+
+
+
+}
+/* ------ button -----*/
+a {
+    text-decoration: none;
+    
+}
+.first {
+    color: var(--bright-orange);
+
+}
+.second {
+    color: var(--dark-cyan);
+}
+.third {
+    color: var(--very-dark-cyan);
+}
+.btn {
+    
+    padding: 10px 20px ;
+    background-color: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+    
+    
+}
+.btn:hover {
+    border: 1px solid white;
+    color :white;
+    background-color: transparent;
+
+}
+/*--------- the rest -----------*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* padding: 20px;*/
+   max-width: 800px;
+}
+.sedans {
+    padding: 20px ;
+    background-color: var(--bright-orange);
+    border-radius: 7px 0 0 7px;
+
+}
+.suvs {
+    padding: 20px ;
+    height: 100%;
+    background-color:var(--dark-cyan);
+
+
+}
+
+.Luxury {
+
+
+    padding: 20px ;
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 7px 7px 0;
+   
+
+
+    
+
+}
+img {
+    padding: 20px;
+    
+
+}
